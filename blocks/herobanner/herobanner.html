@@ -1,20 +1,21 @@
 <div class="herobanner" data-aue-resource="herobanner">
 
+  <!-- images -->
   <a data-aue-prop="backgroundMedia"></a>
-
   <a data-aue-prop="mobileImage"></a>
 
+  <!-- text -->
   <span data-aue-prop="altText"></span>
-
   <span data-aue-prop="eyebrow"></span>
-
   <h2 data-aue-prop="title"></h2>
-
   <p data-aue-prop="description"></p>
 
-  <span data-aue-prop="ctaLabels"></span>
-  <span data-aue-prop="ctaTypes"></span>
-  <span data-aue-prop="ctaLinks"></span>
-  <a href="/authored/cta/link">The authored CTA label</a>
+  <!-- CTA LIST (correct way) -->
+  <div data-aue-collection="cta">
+    <a data-aue-prop="ctaLinks">
+      <span data-aue-prop="ctaLabels"></span>
+    </a>
+  </div>
 
 </div>
+

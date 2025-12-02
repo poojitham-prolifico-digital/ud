@@ -258,24 +258,22 @@
         "component": "text-multi",
         "name": "ctaLabels",
         "label": "CTA Labels",
-        "valueType": "string",
         "multi": true,
         "maxItems": 2
       },
       {
         "component": "enum-multi",
         "name": "ctaTypes",
-        "label": "CTA Type",
-        "valueType": "string",
+        "label": "CTA Types",
         "multi": true,
         "options": [
           {
-            "label": "Schedule Engine",
-            "value": "schedule-engine"
+            "label": "Primary",
+            "value": "primary"
           },
           {
-            "label": "Link",
-            "value": "link"
+            "label": "Secondary",
+            "value": "secondary"
           }
         ],
         "maxItems": 2
@@ -284,7 +282,6 @@
         "component": "aem-content-multi",
         "name": "ctaLinks",
         "label": "CTA Links",
-        "valueType": "string",
         "multi": true,
         "maxItems": 2
       }
